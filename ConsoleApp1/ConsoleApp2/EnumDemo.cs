@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ConsoleApp2
+{
+    public enum EnumDemo
+    {
+        Pause,
+        Failed,
+        Success,
+        Start
+    }
+}

@@ -35,3 +35,7 @@ D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents
 D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\bin\Debug\FormComponents.exe.config
 D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\bin\Debug\FormComponents.exe
 D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\bin\Debug\FormComponents.pdb
+D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.menuStripForm.resources
+D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.CreateMenuStripByCodeForm.resources
+D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.Student.StudentForm.resources
+D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.ContextMenuForm.resources

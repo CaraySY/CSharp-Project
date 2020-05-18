@@ -91,6 +91,42 @@
       <DependentUpon>ProgressBarForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemainForms\Classes\ClassesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemainForms\Classes\ClassesForm.Designer.cs">
+      <DependentUpon>ClassesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemainForms\ContextMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemainForms\ContextMenuForm.Designer.cs">
+      <DependentUpon>ContextMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemainForms\CreateMenuStripByCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemainForms\CreateMenuStripByCodeForm.Designer.cs">
+      <DependentUpon>CreateMenuStripByCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemainForms\MenuStripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemainForms\MenuStripForm.Designer.cs">
+      <DependentUpon>MenuStripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemainForms\Student\StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemainForms\Student\StudentForm.Designer.cs">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemainForms\ToolStripForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemainForms\ToolStripForm.Designer.cs">
+      <DependentUpon>ToolStripForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RichTextBoxForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +175,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemainForms\ContextMenuForm.resx">
+      <DependentUpon>ContextMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemainForms\CreateMenuStripByCodeForm.resx">
+      <DependentUpon>CreateMenuStripByCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemainForms\MenuStripForm.resx">
+      <DependentUpon>MenuStripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemainForms\Student\StudentForm.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RichTextBoxForm.resx">
       <DependentUpon>RichTextBoxForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +208,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imgs\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

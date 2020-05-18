@@ -16,7 +16,7 @@ namespace FormComponents
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new menutrip());
+            Application.Run(new UseListView());
         }
     }
 }

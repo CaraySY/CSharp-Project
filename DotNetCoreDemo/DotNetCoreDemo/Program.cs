@@ -60,7 +60,7 @@ namespace DotNetCoreDemo
             t1.Start();
             t2.Start();*/
             //lock private object 对象
-            LockKeywordDemo lockKeyword1 = new LockKeywordDemo();
+            /*LockKeywordDemo lockKeyword1 = new LockKeywordDemo();
             LockKeywordDemo lockKeyword2 = new LockKeywordDemo();
             Thread t1 = new Thread(lockKeyword1.Run);
             t1.Name = "t1";
@@ -70,7 +70,41 @@ namespace DotNetCoreDemo
             t2.Start();
             t1.Join();
             t2.Join();
-            Console.WriteLine("Main thread finished.");
+            Console.WriteLine("Main thread finished.");*/
+            #endregion
+            #region Interlocked 关键字用法
+            /*//InterlockedDemo.ReadStringTest();
+            InterlockedDemo.ReadTextAndUseInterLockedToLockNumber();*/
+            #endregion
+            #region Monitor监视器的用法
+            /*MonitorDemo monitorDemo1 = new MonitorDemo();
+            MonitorDemo monitorDemo2 = new MonitorDemo();
+            Thread t1 = new Thread(monitorDemo1.Run);            
+            Thread t2 = new Thread(monitorDemo2.Run);
+            t1.Name = "t1";
+            t2.Name = "t2";
+            t1.Start();
+            t2.Start();
+            t1.Join();
+            t2.Join();
+            Console.WriteLine("Main Thread finished.");*/
+            #endregion
+            #region 运算符重载
+            Apple src = new Apple()
+            {
+                Color="Red",
+                Weight=100,
+                Price=26.3m
+            };            
+            Apple desc = new Apple()
+            {
+                Color="Yellow",
+                Weight=500,
+                Price=45.12458m
+            };
+            Console.WriteLine($"苹果src和desc的和是：{src+desc},差价是{src-desc}");
+            Console.WriteLine($"苹果src重量大于desc?=>{src>desc}");
+            Console.WriteLine($"苹果src重量小于desc?=>{src<desc}");
             #endregion
         }
     }

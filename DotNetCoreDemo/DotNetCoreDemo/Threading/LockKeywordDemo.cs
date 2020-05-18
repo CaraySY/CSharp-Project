@@ -15,7 +15,7 @@ namespace DotNetCoreDemo.Threading
     {
         private string str;
         private string path;
-        private static int counter = 10;
+        private static int counter = 20;
 
         private object syncRoot = new object();
 

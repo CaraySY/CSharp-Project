@@ -1,4 +1,5 @@
-﻿using FormComponents.RemainForms;
+﻿using FormComponents.DataDisplayForms;
+using FormComponents.RemainForms;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace FormComponents
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CreateMenuStripByCodeForm());
+            Application.Run(new DataGridViewsForm());
         }
     }
 }

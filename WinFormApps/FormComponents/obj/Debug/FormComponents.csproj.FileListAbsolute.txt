@@ -39,3 +39,13 @@ D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents
 D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.CreateMenuStripByCodeForm.resources
 D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.Student.StudentForm.resources
 D:\C#_Program\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.ContextMenuForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.ContextMenuForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.CreateMenuStripByCodeForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.MenuStripForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.Student.StudentForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.ToolStripForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.RemainForms.StatusStripForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.ContainerForms.GroupBoxForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.ContainerForms.TabPageForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.ContainerForms.DatagGridViewForm.resources
+E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.DataDisplayForms.DataGridViewsForm.resources

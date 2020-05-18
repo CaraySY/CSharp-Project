@@ -58,6 +58,30 @@
     <Compile Include="ComBoxForm.Designer.cs">
       <DependentUpon>ComBoxForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContainerForms\GroupBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContainerForms\GroupBoxForm.Designer.cs">
+      <DependentUpon>GroupBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContainerForms\SplitContainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContainerForms\SplitContainerForm.Designer.cs">
+      <DependentUpon>SplitContainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContainerForms\TabPageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContainerForms\TabPageForm.Designer.cs">
+      <DependentUpon>TabPageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataDisplayForms\DataGridViewsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataDisplayForms\DataGridViewsForm.Designer.cs">
+      <DependentUpon>DataGridViewsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DateTimeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,40 +115,46 @@
       <DependentUpon>ProgressBarForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemainForms\Classes\ClassesForm.cs">
+    <Compile Include="MenuForms\Classes\ClassesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemainForms\Classes\ClassesForm.Designer.cs">
+    <Compile Include="MenuForms\Classes\ClassesForm.Designer.cs">
       <DependentUpon>ClassesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemainForms\ContextMenuForm.cs">
+    <Compile Include="MenuForms\ContextMenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemainForms\ContextMenuForm.Designer.cs">
+    <Compile Include="MenuForms\ContextMenuForm.Designer.cs">
       <DependentUpon>ContextMenuForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemainForms\CreateMenuStripByCodeForm.cs">
+    <Compile Include="MenuForms\CreateMenuStripByCodeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemainForms\CreateMenuStripByCodeForm.Designer.cs">
+    <Compile Include="MenuForms\CreateMenuStripByCodeForm.Designer.cs">
       <DependentUpon>CreateMenuStripByCodeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemainForms\MenuStripForm.cs">
+    <Compile Include="MenuForms\MenuStripForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemainForms\MenuStripForm.Designer.cs">
+    <Compile Include="MenuForms\MenuStripForm.Designer.cs">
       <DependentUpon>MenuStripForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemainForms\Student\StudentForm.cs">
+    <Compile Include="MenuForms\StatusStripForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemainForms\Student\StudentForm.Designer.cs">
+    <Compile Include="MenuForms\StatusStripForm.Designer.cs">
+      <DependentUpon>StatusStripForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForms\Student\StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForms\Student\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="RemainForms\ToolStripForm.cs">
+    <Compile Include="MenuForms\ToolStripForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RemainForms\ToolStripForm.Designer.cs">
+    <Compile Include="MenuForms\ToolStripForm.Designer.cs">
       <DependentUpon>ToolStripForm.cs</DependentUpon>
     </Compile>
     <Compile Include="RichTextBoxForm.cs">
@@ -151,6 +181,18 @@
     <EmbeddedResource Include="ComBoxForm.resx">
       <DependentUpon>ComBoxForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ContainerForms\GroupBoxForm.resx">
+      <DependentUpon>GroupBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainerForms\SplitContainerForm.resx">
+      <DependentUpon>SplitContainerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContainerForms\TabPageForm.resx">
+      <DependentUpon>TabPageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataDisplayForms\DataGridViewsForm.resx">
+      <DependentUpon>DataGridViewsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DateTimeForm.resx">
       <DependentUpon>DateTimeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,17 +217,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RemainForms\ContextMenuForm.resx">
+    <EmbeddedResource Include="MenuForms\ContextMenuForm.resx">
       <DependentUpon>ContextMenuForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemainForms\CreateMenuStripByCodeForm.resx">
+    <EmbeddedResource Include="MenuForms\CreateMenuStripByCodeForm.resx">
       <DependentUpon>CreateMenuStripByCodeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemainForms\MenuStripForm.resx">
+    <EmbeddedResource Include="MenuForms\MenuStripForm.resx">
       <DependentUpon>MenuStripForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RemainForms\Student\StudentForm.resx">
+    <EmbeddedResource Include="MenuForms\StatusStripForm.resx">
+      <DependentUpon>StatusStripForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\Student\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForms\ToolStripForm.resx">
+      <DependentUpon>ToolStripForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RichTextBoxForm.resx">
       <DependentUpon>RichTextBoxForm.cs</DependentUpon>

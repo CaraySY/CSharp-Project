@@ -7,6 +7,7 @@ using DotNetCoreDemo.Threading;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading;
 
@@ -142,8 +143,14 @@ namespace DotNetCoreDemo
             });*/
             #endregion
             #region ADO.NET Demo
-            SqlConnectionStringReader reader = new SqlConnectionStringReader();
-            reader.Create();
+            //SqlConnectionStringReader reader = new SqlConnectionStringReader();
+            //reader.Create();
+            /*DBHelper.ExecuteNonQuery("insert into student values(@code,@name,@sex,@birthday)", 1
+                , new SqlParameter[] { new SqlParameter("@code","002"),new SqlParameter("@name","来打")
+                ,new SqlParameter("@sex","男")
+                ,new SqlParameter("@birthday",DateTime.Now)
+                });*/
+            DBHelper.ExecuteNonQuery("delete from student where code=@code", 1, new SqlParameter("@code","0001"));
             #endregion
         }
     }

@@ -12,6 +12,12 @@ namespace DotNetCoreDemo.Common
         private static readonly string connStr = ConfigurationManager
             .ConnectionStrings["connStr"].ConnectionString;
 
+        public enum SQLStoredType
+        {
+            Common,
+            StoredProcedure
+        }
+
         /// <summary>
         ///  增删改通用方法
         /// </summary>

@@ -1,0 +1,6 @@
+E:\C#\ADO_NET_DEMO\ADONetDemo\bin\Debug\ADONetDemo.exe.config
+E:\C#\ADO_NET_DEMO\ADONetDemo\bin\Debug\ADONetDemo.exe
+E:\C#\ADO_NET_DEMO\ADONetDemo\bin\Debug\ADONetDemo.pdb
+E:\C#\ADO_NET_DEMO\ADONetDemo\obj\Debug\ADONetDemo.csprojAssemblyReference.cache
+E:\C#\ADO_NET_DEMO\ADONetDemo\obj\Debug\ADONetDemo.exe
+E:\C#\ADO_NET_DEMO\ADONetDemo\obj\Debug\ADONetDemo.pdb

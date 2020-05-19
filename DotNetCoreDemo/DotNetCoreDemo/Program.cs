@@ -1,10 +1,12 @@
-﻿using DotNetCoreDemo.Constructor;
+﻿using DotNetCoreDemo.Common;
+using DotNetCoreDemo.Constructor;
 using DotNetCoreDemo.Entity;
 using DotNetCoreDemo.Linqs;
 using DotNetCoreDemo.Pattern.SinglePattern;
 using DotNetCoreDemo.Threading;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading;
 
@@ -139,8 +141,10 @@ namespace DotNetCoreDemo
                 t.Start();
             });*/
             #endregion
-
-
+            #region ADO.NET Demo
+            SqlConnectionStringReader reader = new SqlConnectionStringReader();
+            reader.Create();
+            #endregion
         }
     }
 }

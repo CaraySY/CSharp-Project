@@ -1,8 +1,11 @@
 ﻿using DotNetCoreDemo.Constructor;
 using DotNetCoreDemo.Entity;
+using DotNetCoreDemo.Linqs;
 using DotNetCoreDemo.Pattern.SinglePattern;
 using DotNetCoreDemo.Threading;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 
 
@@ -15,12 +18,12 @@ namespace DotNetCoreDemo
 {
     class Program
     {
-        private static string str1 = "name";
-        private static string str2 = "name";
+        /*private static string str1 = "name";
+        private static string str2 = "name";*/
 
         static void Main(string[] args)
         {
-            #region 测试静态构造函数
+            #region 测试静态构造函数  ====>   等价于Java的静态代码块，类初始化的时候执行
             //输出均为 Animal * 3
             // static constructor-a -> static constructor-b -> constructor-a -> constructor-b
             //Dog d = new Dog();
@@ -28,6 +31,32 @@ namespace DotNetCoreDemo
             //Animal animal = new Dog();
             /*Console.WriteLine(Dog._strText);
             Console.WriteLine(Animal._strText);*/
+            #endregion
+            #region 运算符重载
+            /*Apple src = new Apple()
+            {
+                Color="Red",
+                Weight=100,
+                Price=26.3m
+            };            
+            Apple desc = new Apple()
+            {
+                Color="Yellow",
+                Weight=500,
+                Price=45.12458m
+            };
+            Console.WriteLine($"苹果src和desc的和是：{src+desc},差价是{src-desc}");
+            Console.WriteLine($"苹果src重量大于desc?=>{src>desc}");
+            Console.WriteLine($"苹果src重量小于desc?=>{src<desc}");*/
+            #endregion
+            #region Linq To Object 
+            /*LinqEnumerableDemo.FilterDemo();
+            LinqEnumerableDemo.FruitsGroupByColor();
+            LinqEnu
+            eumerableDemo.FlatCollectionBySelectMany();*/
+            #endregion
+            #region Linq To Xml
+
             #endregion
             #region 测试Volatile关键字
             /*Worker workerObject = new Worker();
@@ -89,23 +118,29 @@ namespace DotNetCoreDemo
             t2.Join();
             Console.WriteLine("Main Thread finished.");*/
             #endregion
-            #region 运算符重载
-            Apple src = new Apple()
-            {
-                Color="Red",
-                Weight=100,
-                Price=26.3m
-            };            
-            Apple desc = new Apple()
-            {
-                Color="Yellow",
-                Weight=500,
-                Price=45.12458m
-            };
-            Console.WriteLine($"苹果src和desc的和是：{src+desc},差价是{src-desc}");
-            Console.WriteLine($"苹果src重量大于desc?=>{src>desc}");
-            Console.WriteLine($"苹果src重量小于desc?=>{src<desc}");
+            #region 使用Monitor模拟生产者-消费者问题
+            /*MonitorSample sample = new MonitorSample();
+            Thread t_first = new Thread(sample.FirstThread);
+            Thread t_second = new Thread(sample.SecondThread);
+            t_first.Name = "t_first";
+            t_second.Name = "t_second";
+            t_first.Start();
+            t_second.Start();
+            t_first.Join();
+            t_second.Join();
+            Console.WriteLine("Thread Main finished.->"+sample.Count);*/
             #endregion
+            #region 使用Mutex进行线程同步
+            /*MutexDemo mutexDemo = new MutexDemo();
+            Enumerable.Range(1, mutexDemo.PeopleCount).ToList().ForEach(i =>
+            {
+                Thread t = new Thread(mutexDemo.GetWeight);
+                t.Name = " t->" + i;
+                t.Start();
+            });*/
+            #endregion
+
+
         }
     }
 }

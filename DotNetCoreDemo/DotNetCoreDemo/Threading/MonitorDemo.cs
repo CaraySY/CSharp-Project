@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
+/// <summary>
+///  Monitor.TryEnter()可以保证无论线程有没有获取到对像锁都能够返回结果，而Lock必须等待占用的线程
+///  退出后才能让下一个线程进去
+/// </summary>
 namespace DotNetCoreDemo.Threading
 {
     public class MonitorDemo
     {
-        private object syncRoot = new object();
+        private readonly object syncRoot = new object();
 
         public void Run()
         {

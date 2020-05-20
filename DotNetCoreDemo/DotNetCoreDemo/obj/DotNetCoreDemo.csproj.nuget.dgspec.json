@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj": {}
+    "D:\\C#_Program\\CSharp-Project\\CSharp-Project\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj": {}
   },
   "projects": {
-    "E:\\C#\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj": {
+    "D:\\C#_Program\\CSharp-Project\\CSharp-Project\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj",
+        "projectUniqueName": "D:\\C#_Program\\CSharp-Project\\CSharp-Project\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj",
         "projectName": "DotNetCoreDemo",
-        "projectPath": "E:\\C#\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj",
-        "packagesPath": "E:\\C#_Tools\\NuGet\\.nuget\\packages",
-        "outputPath": "E:\\C#\\DotNetCoreDemo\\DotNetCoreDemo\\obj\\",
+        "projectPath": "D:\\C#_Program\\CSharp-Project\\CSharp-Project\\DotNetCoreDemo\\DotNetCoreDemo\\DotNetCoreDemo.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\C#_Program\\CSharp-Project\\CSharp-Project\\DotNetCoreDemo\\DotNetCoreDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SYWei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "E:\\C#_Tools\\NuGet\\.nuget\\packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,12 +57,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

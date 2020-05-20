@@ -6,18 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ADO_NET\**" />
     <Compile Remove="NetSocket\**" />
+    <EmbeddedResource Remove="ADO_NET\**" />
     <EmbeddedResource Remove="NetSocket\**" />
+    <None Remove="ADO_NET\**" />
     <None Remove="NetSocket\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ADO_NET\" />
   </ItemGroup>
 
 </Project>

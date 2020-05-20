@@ -18,7 +18,7 @@ namespace FormComponents
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataGridViewsForm());
+            Application.Run(new DataGridViewBindList());
         }
     }
 }

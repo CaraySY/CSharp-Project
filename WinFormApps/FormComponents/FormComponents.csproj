@@ -79,6 +79,12 @@
     <Compile Include="ContainerForms\TabPageForm.Designer.cs">
       <DependentUpon>TabPageForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataDisplayForms\DataGirdViewCRUDForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataDisplayForms\DataGirdViewCRUDForm.Designer.cs">
+      <DependentUpon>DataGirdViewCRUDForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataDisplayForms\DataGridView2ComboxBindDSForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +217,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ContainerForms\TabPageForm.resx">
       <DependentUpon>TabPageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataDisplayForms\DataGirdViewCRUDForm.resx">
+      <DependentUpon>DataGirdViewCRUDForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataDisplayForms\DataGridView2ComboxBindDSForm.resx">
       <DependentUpon>DataGridView2ComboxBindDSForm.cs</DependentUpon>

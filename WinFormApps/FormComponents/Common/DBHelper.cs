@@ -12,6 +12,11 @@ namespace DotNetCoreDemo.Common
         private static readonly string connStr = ConfigurationManager
             .ConnectionStrings["connStr"].ConnectionString;
 
+        public string ConnStr
+        {
+            get => connStr;
+        }
+
         public enum SQLStoredType
         {
             Common,

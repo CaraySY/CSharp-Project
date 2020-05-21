@@ -1,5 +1,6 @@
 ﻿using FormComponents.DataDisplayForms;
 using FormComponents.RemainForms;
+using FormComponents.Tree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace FormComponents
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DataGirdViewCRUDForm());
+            Application.Run(new AddTreeNodeByCode());
         }
     }
 }

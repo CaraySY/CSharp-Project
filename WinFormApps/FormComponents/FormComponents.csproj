@@ -197,6 +197,18 @@
     <Compile Include="TimerForm.Designer.cs">
       <DependentUpon>TimerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tree\AddTreeNodeByCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tree\AddTreeNodeByCode.Designer.cs">
+      <DependentUpon>AddTreeNodeByCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tree\TreeViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tree\TreeViewForm.Designer.cs">
+      <DependentUpon>TreeViewForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UseListView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,6 +292,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TimerForm.resx">
       <DependentUpon>TimerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tree\AddTreeNodeByCode.resx">
+      <DependentUpon>AddTreeNodeByCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tree\TreeViewForm.resx">
+      <DependentUpon>TreeViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UseListView.resx">
       <DependentUpon>UseListView.cs</DependentUpon>

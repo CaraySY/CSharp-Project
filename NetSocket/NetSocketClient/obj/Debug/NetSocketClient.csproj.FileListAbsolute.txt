@@ -1,0 +1,10 @@
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\bin\Debug\NetSocketClient.exe.config
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\bin\Debug\NetSocketClient.exe
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\bin\Debug\NetSocketClient.pdb
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.csprojAssemblyReference.cache
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.ClientForm.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.Properties.Resources.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.csproj.GenerateResource.cache
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.csproj.CoreCompileInputs.cache
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.exe
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocketClient\obj\Debug\NetSocketClient.pdb

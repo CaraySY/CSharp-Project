@@ -1,0 +1,10 @@
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\bin\Debug\NetSocket.exe.config
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\bin\Debug\NetSocket.exe
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\bin\Debug\NetSocket.pdb
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.csprojAssemblyReference.cache
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.Properties.Resources.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.ServerForm.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.csproj.GenerateResource.cache
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.csproj.CoreCompileInputs.cache
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.exe
+D:\C#_Program\CSharp-Project\CSharp-Project\NetSocket\NetSocket\obj\Debug\NetSocket.pdb

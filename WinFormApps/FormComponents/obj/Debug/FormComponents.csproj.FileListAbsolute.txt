@@ -61,3 +61,7 @@ E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.csproj.GenerateResourc
 E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.exe
 E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.pdb
 E:\C#\WinFormApps\FormComponents\obj\Debug\FormComponents.DataDisplayForms.DataGirdViewCRUDForm.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.DataDisplayForms.DataGirdViewCRUDForm.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.DataDisplayForms.DataGridView2ComboxBindDSForm.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.Tree.TreeViewForm.resources
+D:\C#_Program\CSharp-Project\CSharp-Project\WinFormApps\FormComponents\obj\Debug\FormComponents.Tree.AddTreeNodeByCode.resources

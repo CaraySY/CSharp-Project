@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSocket", "NetSocket\NetSocket.csproj", "{ACF82BB1-1C86-461F-92AE-AB96677DECAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSocketClient", "NetSocketClient\NetSocketClient.csproj", "{F2BB00A5-9C20-47D4-B0E7-81CEF6B10519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF82BB1-1C86-461F-92AE-AB96677DECAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF82BB1-1C86-461F-92AE-AB96677DECAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF82BB1-1C86-461F-92AE-AB96677DECAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF82BB1-1C86-461F-92AE-AB96677DECAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BB00A5-9C20-47D4-B0E7-81CEF6B10519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BB00A5-9C20-47D4-B0E7-81CEF6B10519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BB00A5-9C20-47D4-B0E7-81CEF6B10519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BB00A5-9C20-47D4-B0E7-81CEF6B10519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D86E8E8-C43A-4AC7-A5E9-965096092CCC}
+	EndGlobalSection
+EndGlobal
